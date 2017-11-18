@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+hw4/exp.csv
+hw4/control.csv
+
 # C extensions
 *.so
 
