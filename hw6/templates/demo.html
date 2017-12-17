@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Demo</title>
+<form action="{{ url_for('index_page') }}" method=post>
+    <dl>
+        <dt>Введите/вставьте пример отзыва на банк: <br>
+        <dd><textarea name=text rows=5 cols=40>{{ text }}</textarea>
+        <dd><input type=submit value="Оценить">
+    </dl>
+</form>
+
+<br>Оценка отзыва (по шкале от 1 до 5):<br>
+{{ prediction_message }}
